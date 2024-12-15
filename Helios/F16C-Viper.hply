@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutRoot>
+  <RootPanel Orientation="Horizontal">
+    <LayoutAnchorablePaneGroup Orientation="Vertical" DockWidth="204">
+      <LayoutAnchorablePane DockWidth="204">
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Preview" ContentId="PreviewPanel" LastActivationTimeStamp="12/14/2024 12:31:41" />
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Profile Explorer" IsSelected="True" ContentId="ExplorerPanel" LastActivationTimeStamp="12/14/2024 12:31:41" />
+      </LayoutAnchorablePane>
+      <LayoutAnchorablePane DockHeight="3*">
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Toolbox" IsSelected="True" ContentId="ToolboxPanel" LastActivationTimeStamp="12/14/2024 14:40:51" />
+      </LayoutAnchorablePane>
+    </LayoutAnchorablePaneGroup>
+    <LayoutPanel Orientation="Horizontal" DockWidth="1.1259842519685*">
+      <LayoutPanel Orientation="Vertical" DockWidth="1.81076709755692*">
+        <LayoutPanel Orientation="Horizontal">
+          <LayoutDocumentPane Id="b348d6c4-4fa2-4941-930d-c482b6c74471" DockWidth="0.0682614799179472*" DockHeight="0.517432142004298*">
+            <LayoutDocument Title="Monitor 3" IsSelected="True" IsLastFocusedDocument="True" ContentId="Visual;Monitor 3;Helios.Monitor;Monitor 3" LastActivationTimeStamp="12/14/2024 14:57:53" />
+            <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Interface Status" ContentId="InterfaceStatusPanel" FloatingLeft="362" FloatingTop="93" FloatingWidth="1412" FloatingHeight="1299" LastActivationTimeStamp="12/14/2024 14:35:13" />
+            <LayoutDocument Title="DCS F-16C_50" ContentId="Interface;;Helios.DCSInterfaceFile;DCS F-16C_50" LastActivationTimeStamp="12/14/2024 14:35:13" />
+          </LayoutDocumentPane>
+          <LayoutAnchorablePaneGroup Orientation="Horizontal" DockWidth="1202" DockHeight="785" FloatingWidth="2826" FloatingHeight="795" FloatingLeft="1795" FloatingTop="723">
+            <LayoutAnchorablePane DockHeight="785" FloatingWidth="2826" FloatingHeight="795" FloatingLeft="1795" FloatingTop="723">
+              <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="300" Title="Bindings" IsSelected="True" ContentId="BindingsPanel" FloatingLeft="1795" FloatingTop="723" FloatingWidth="2826" FloatingHeight="795" LastActivationTimeStamp="12/14/2024 15:02:01" />
+            </LayoutAnchorablePane>
+          </LayoutAnchorablePaneGroup>
+        </LayoutPanel>
+      </LayoutPanel>
+      <LayoutAnchorablePaneGroup Orientation="Vertical" DockWidth="254">
+        <LayoutAnchorablePane DockWidth="254">
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Properties" IsSelected="True" ContentId="PropertiesPanel" LastActivationTimeStamp="12/14/2024 13:51:30" />
+        </LayoutAnchorablePane>
+        <LayoutAnchorablePane>
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Layers" IsSelected="True" ContentId="LayersPanel" LastActivationTimeStamp="12/14/2024 15:01:54" />
+        </LayoutAnchorablePane>
+      </LayoutAnchorablePaneGroup>
+    </LayoutPanel>
+  </RootPanel>
+  <TopSide />
+  <RightSide />
+  <LeftSide />
+  <BottomSide />
+  <FloatingWindows />
+  <Hidden />
+</LayoutRoot>
